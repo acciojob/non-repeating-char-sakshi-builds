@@ -16,9 +16,9 @@ for(let i=0;i<str.length;i++){
     
 }
 if(ans=="")
-console.log(null);
+return null;
 else
-console.log(ans);
+return ans;
 }
 const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+ alert(firstNonRepeatedChar(input)); 
